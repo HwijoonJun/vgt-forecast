@@ -210,5 +210,4 @@ __marimo__/
 .DS_Store
 models/
 data/
-results/
 *.ipynb
