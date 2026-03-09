@@ -41,8 +41,6 @@ with a 70:15:15 ratio respectively.
 
 The train_bert.ipynb notebook fine-tune's the finBert model by setting training arguments and hyperparameters
 
-The trained model can be found at /models/VGT_predict_finBert
-
 
 ### 4) Results
 
