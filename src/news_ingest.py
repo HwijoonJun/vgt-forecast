@@ -3,6 +3,7 @@ import html
 import re
 import requests
 from textblob import TextBlob
+import os
 
 """
 the newsapi is only accessible for 1 month of news history.
@@ -10,8 +11,7 @@ may need to switch to paid alternatives such as https://newsmesh.co/
 """
 
 # api key for newsapi.org
-newsapi_api_key = "f1644206649f4e3aac8ddeb6854f808c"
-
+newsapi_api_key = os.getenv("NEWSAPI_API_KEY")
 
 
 

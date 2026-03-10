@@ -26,7 +26,7 @@ Analyze VGT-related news and fine-tune a FinBERT classifier to predict up/down d
 ### 2) Build article-level split dataset
 
 ```bash
-python src/build_bert_splits.py --input data/news_with_percentage.json --output-dir data/bert_dataset
+python src/split_data.py --input data/news_with_percentage.json --output-dir data/bert_dataset
 ```
 
 This creates:
